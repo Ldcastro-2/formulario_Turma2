@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semântica T2</title>
+  </head>
+  <body>
+  
+    <!--Header: define o cabeçalho da página. Geralmente é a primeira tag que colocamos no nosso código. Colocamos dentro dela, menu navegação, logo, barra de pesquisa, loggin etc.-->
+    <header>
+      <img src="./imagens/Logo.png" alt="Logo da empresa wilson sons" />
+
+      <nav>
+        <!--Nav (menu navegação), cliquei e me levou para algum lugar.-->
+
+        <ul>
+          <li>Sobre nós</li>
+          <li>Fale conosco</li>
+          <li>
+            <a href="https://www.mcdonalds.com.br/" target="_self">
+              Negócios
+            </a>
+          </li>
+          <!--Abre o site na mesma aba-->
+
+          <li>
+            <a href="https://www.mcdonalds.com.br/" target="_self">
+              Produtos
+            </a>
+          </li>
+          <!--Abre o site em outra aba-->
+
+          <li>
+            <a
+              href="link"
+              target="Onde quero abrir esse link? nessa aba ou em outra? "
+              >Dandara</a
+            >
+          </li>
+
+          <!--A tag <a> é usada para links. Ela permite que você contecte uma parte do seu texto ou imagem com um outro lugar-->
+        </ul>
+      </nav>
+    </header>
+
+    <!--Main: dentro da main vai todo o conteúdo principal do site, como: seções, mapas, vídeos, galerias, imagens...-->
+    <main>
+      <!--Section: Seção para um conteúdo específico-->
+      <section>
+        <!-- Article: artigo, Representa um conteúdo completo. Pode incluir postagens de blog, notícias, artigos-->
+        <article>
+          <h2>Oceano</h2>
+          <img
+            src="https://www.toyster.com.br/wp-content/uploads/2023/03/3121-IA-Oceano-Cintilante-Qc-500-pecas-nano-Produto-GRANDE.png"
+            alt="Imagem do fundo do mar com uns peixinhos e bolhas de ar"
+            width="250"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+            recusandae molestiae odio cupiditate quam voluptates exercitationem
+            adipisci similique dignissimos et voluptate facere sapiente aut,
+            doloribus impedit nesciunt enim. Dolores, iusto.
+          </p>
+        </article>
+
+        <article>
+          <h2>Navio de carga</h2>
+          <img
+            src="https://www.wilsonsons.com.br/wp-content/uploads/2021/07/03175336/embacaroffshore1.png"
+            alt="Navio de carga em Santos"
+            width="250"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+            recusandae molestiae odio cupiditate quam voluptates exercitationem
+            adipisci similique dignissimos et voluptate facere sapiente aut,
+            doloribus impedit nesciunt enim. Dolores, iusto.
+          </p>
+        </article>
+      </section>
+
+      <section>
+        <!--span - é um container usado para marcar partes de um texto específico-->
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quas
+          libero quod voluptate aut
+          <span> iure quis sequi temporibus </span> doloremque praesentium dicta
+          similique ipsum, repellendus beatae consequuntur ipsam! Aut,
+          cupiditate voluptates. Modi in aspernatur a laborum, expedita dolorem
+          error deserunt sequi? Sequi vel ducimus eos laudantium odio maxime
+          recusandae maiores itaque? Laudantium expedita sit voluptatum earum
+          nihil iste fuga dolorem porro.
+        </p>
+
+        <!--Figure: é usada para envolver conteúdo gráficos como imagensm, acompanhadas de uma legenda (figcaption)-->
+        <figure>
+          <img
+            src="https://www.wilsonsons.com.br/wp-content/uploads/2021/02/1612280794.jpg"
+            alt="Imagem de um rebocador da empresa wilson sons"
+            width="350"
+          />
+          <figcaption>Rebocador WS</figcaption>
+        </figure>
+
+        <!--Ex, para uma galeria de imagens sem legenda-->
+        <section>
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+        </section>
+      </section>
+
+      <!--Form: Envolve tudo relacionado ao formulário-->
+      <!-- Fieldset: É usado para agrupar os elementos relacionados em um formulário.-->
+      <!--Legend: É usado para definir uma legenda para o fieldset.-->
+
+      <form>
+        <fieldset>
+          <legend>Preencha os campos:</legend>
+
+          <label for="nome"> Nome: </label>
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="Digite seu nome"
+          />
+
+          <!--label (etiqueta) uma etiqueta para (for) tal coisa-->
+          <!--input: é o campo onde o usuário vai inserir os dados-->
+          <!--type: é o tipo do input-->
+          <!--name: o nome dado para o input-->
+          <!--id: identificação do input-->
+          <!--placeholder: o texto que será exibido dentro do input-->
+        </fieldset>
+      </form>
+    </main>
+
+    <footer>
+      <nav>
+        <a href="https://br.linkedin.com/" target="_blank">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+            alt="Logo do linkedin"
+            width="50"
+          />
+        </a>
+
+        <a href="https://www.instagram.com/" target="_blank">
+          <img
+            src="https://cdn-icons-png.flaticon.com/256/1384/1384063.png"
+            alt="Logo do instagram"
+            width="50"
+          />
+        </a>
+      </nav>
+    </footer>
+  </body>
+</html>
